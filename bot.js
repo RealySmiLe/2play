@@ -12,7 +12,7 @@ const queue = new Map();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play  LiFe Games`,"http://twitch.tv/S-F")
+client.user.setGame(`2play  LiFe Games`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
