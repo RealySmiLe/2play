@@ -236,7 +236,7 @@ function play(guild, song) {
 }
 
 client.on("message", message => {
-const prefix = '1'
+const prefix = '2'
  if (message.content === prefix + "help") {
  message.channel.send(":white_check_mark: ")
   const embed = new Discord.RichEmbed()
